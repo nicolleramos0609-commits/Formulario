@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="">
+    <div class="formulario">
+      <h1>Cadastro de Devs | Programador Web</h1>
+      <fieldset>
+        <legend>Informações de Contato</legend>
+
+        <div>
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" maxlength="30" size="30" placeholder="Digite seu nome completo">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" size="30" maxlength="35" placeholder="seuemail@email.com">
+
+        </div>
+        <div>
+          <label for="Celular">Celular: </label>
+          <input type="tell" id="tel" name="tel" placeholder="EX :(00)99999-9999" size="18" maxlength="14">
+          <!--(00)99999-9999 -->
+
+          <label for="CEP">CEP:</label>
+          <input type="number" id="CEP" name="CEP" placeholder="Digite seu CEP">
+        </div>
+        <div>
+          <label for="Endereço">Enderenço:</label>
+          <input type="text" id="Endereço" size="35" maxlength="35" placeholder="Digite seu enderenço aqui">
+
+          <label for="Número">Número:</label>
+          <input type="text" id="" size="5" maxlength="5" placeholder="00">
+
+        </div>
+        <div>
+
+          <label for="Complemento">Complemento:</label>
+          <input type="text" id="Complemento" size="70" maxlength="15" placeholder="Digite seu complemento">
+        </div>
+
+        <div>
+          <label for="Estado">Estado</label>
+          <select name="estado">
+            <option value="estado">Selecione o Estado</option>
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="am">Amazonas</option>
+            <option value="ap">Amapá</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="df">Distrito Federal</option>
+            <option value="es">Espírito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="ma">Maranhão</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="ro">Rondônia</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="rr">Roraima</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="se">Sergipe</option>
+            <option value="sp">São Paulo</option>
+            <option value="to">Tocantins</option>
+          </select>
+          <label for="Bairro">Bairro:</label>
+          <input type="text" id="Bairro" size="20" maxlength="15" placeholder="Digite seu bairro">
+        </div>
+        <div>
+          <label for="Cidade">Cidade:</label>
+          <input type="text" id="Cidade" size="15" maxlength="15" placeholder="Digite a cidade">
+        </div>
+      </fieldset>
+      <fieldset>
+        <br>
+        <legend> Experiência Profissional </legend>
+        <label> Você é um desenvolvedor: </label>
+        <br>
+        <label>
+          <input type="radio" name="devweb" id="devweb" value="Front-End" checked>Front-End
+          <input type="radio" name="devweb" id="devweb" value="Back-End">Back-End
+          <input type="radio" name="devweb" id="devweb" value="Fullstack"> Fullstack
+        </label>
+        <br><br>
+        <label for="conhecimento">Qual o seu nível de conhecimento?</label>
+        <select name="conhecimento" id="conhecimento" required>
+          <option selected disabled value="">selecione</option>
+          <option>Júnior</option>
+          <option>Pleno</option>
+          <option>Sênior</option>
+          <option>Especialista</option>
+        </select>
+        <br><br>
+        <label> Selecione as tecnologias que utiliza </label>
+        <input type="checkbox" name="tecnologia" id="tecnologia1" value="html">
+        <label for="tecnologia1">HTML</label>
+
+          <input type="checkbox" name="tecnologia" id="tecnologia2" value="css">
+        <label for="tecnologia2">CSS</label>
+
+        <input type="checkbox" name="tecnologia" id="tecnologia3" value="JavaScript">
+        <label for="tecnologia3">JavaScript</label>
+
+        <input type="checkbox" name="tecnologia" id="tecnologia4" value="Python">
+        <label for="tecnologia4">Python</label>
+
+        <input type="checkbox" name="tecnologia" id="tecnologia5" value="C#">
+        <label for="tecnologia5">C#</label>
+
+        <input type="checkbox" name="tecnologia" id="tecnologia6" value="Kotlin">
+        <label for="tecnologia6">Kotlin</label>
+
+        <input type="checkbox" name="tecnologia" id="tecnologia7" value="PL/SQL">
+        <label for="tecnologia8">PL/SQL</label>
+        <br><br>
+        <label for="experiencia"> Conte um pouco mais sobre sua experiência</label>
+        <br>
+        <textarea rows="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+      </fieldset>
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
+
+    </div>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:lightpink; /* fallbacvk for old browsers */
+    background: #DCFFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CC86D1, #DCFFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CC86D1, #DCFFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+fieldset{
+    background-color: aliceblue;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+div{
+    padding: 9px;
+}
+
+.formulario{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 700px;
+}
+input{
+    padding: 3px;
+    border-radius: 6px;
+}
